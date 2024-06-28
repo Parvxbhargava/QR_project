@@ -1,0 +1,11 @@
+{%extends "base.html"%}
+{%block title%}
+QR page 
+{%endblock%}
+{%block content%}
+<h5>Here's your QR</h5>
+<img src="data:image/png;base64,{{ qr_code }}" alt="QR Code" class="qrcode">
+<a href="/">Generate another QR</a>
+
+
+{%endblock%}
