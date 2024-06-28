@@ -1,2 +1,2 @@
 # QR_project
-A site to converts links into QR codes.
+A site to convert a link into a QR code.
